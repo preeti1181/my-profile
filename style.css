@@ -1,0 +1,30 @@
+#home{
+    background-color: #82AAE3;
+}
+.title{
+    font-family: 'Playfair Display SC', serif;
+    
+}
+.profile-img{
+    border-radius: 50%;
+}
+.btn{
+    background-color: #7286D3;
+    color:white;
+}
+#education{
+    background-color: #91D8E4;
+}
+
+#skills{
+    background-color: #BFEAF5;
+}
+
+#other{
+    background-color: #EAFDFC;
+}
+
+#footer{
+    background-color: #82AAE3;
+    color:white
+}

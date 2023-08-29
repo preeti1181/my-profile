@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css" />
+    
+</head>
+<body>
+    <!--Hero-->
+    <section id="home">
+        <div class="container">
+            <div class="row flex-lg-row-reverse g-5 pt-5 pb-5">
+              <div class="col-10 col-sm-8 col-lg-6 d-flex justify-content-center">
+                <img src="./my-profile-img.png" class="d-block img-fluid profile-img alt="My-Profile-img" width="200" height="200" loading="lazy">
+              </div>
+              <div class="col-lg-6">
+                <h1 class="display-5 fw-bold text-body-emphasis pt-5 title">I'm Preeti Prajapati</h1>
+                <h3>Learning Web Development</h3>
+                 <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                  <a href="https://preeti1181.github.io/html-portfolio/"><button type="button" class="btn btn-light btn-lg  mt-3 px-4 me-md-2" fdprocessedid="t0n7ed">Capstone1</button></a>
+                  </div>
+              </div>
+            </div>
+          </div>
+    </section>
+    <!-- Education -->
+    <section id="education">
+        <div class="container py-5">
+        <h2 class="pb-2 border-bottom">Education</h2>
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                  <th scope="col">Class</th>
+                  <th scope="col">College/School Name</th>
+                  <th scope="col">Passing Year</th>
+                  <th scope="col">Percentage</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">10th</th>
+                  <td>KKEM School</td>
+                  <td>2017</td>
+                  <td>82.20%</td>
+                </tr>
+                <tr>
+                  <th scope="row">12th</th>
+                  <td>Nirmal Bethany Jr. College</td>
+                  <td>2019</td>
+                  <td>66.77%</td>
+                </tr>
+                <tr>
+                  <th scope="row">BCA</th>
+                  <td>DY Patil ACS College</td>
+                  <td>2023</td>
+                  <td>89%</td>
+                </tr>
+              </tbody>
+          </table>
+    </div>
+    </section>
+    <!-- Skills -->
+    <section id="skills">
+        <div class="container py-5">
+            <h2 class="pb-2 border-bottom">Skills</h2>
+            <div id="carouselExampleIndicators" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="./html.png" class="d-block w-100" alt="html">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./css.jpg" class="d-block w-100" alt="css">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./bootstrap.jpg" class="d-block w-100" alt="bootstrap">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./c++.png" class="d-block w-100" alt="c++">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </div>
+    </section>
+    <!-- other -->
+    <section id="other">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-lg-6 col-sm-12 d-flex justify-content-center">
+                    <a href="./contactme.html"><button type="button" class="btn btn-light btn-lg mt-2 px-4 me-md-2" fdprocessedid="t0n7ed">Contact Me</button></a>
+                </div>
+                <div class="col-lg-6 col-sm-12 d-flex justify-content-center">
+                    <a href="./additionalinfo.html"><button type="button" class="btn btn-light btn-lg  mt-2 px-4 me-md-2" fdprocessedid="t0n7ed">Additional info</button></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <section id="footer">
+        <div class="container py-2 d-flex justify-content-center">
+       <footer>
+        © 2023Preeti
+       </footer>
+    </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js" integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa" crossorigin="anonymous"></script>
+</body>
+</html>
